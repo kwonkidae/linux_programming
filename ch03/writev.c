@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <string.h>
 #include <sys/uio.h>
+#include <stdlib.h>
 
 int main() {
   struct iovec iov[3];
